@@ -1,0 +1,26 @@
+.registerMain {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-top: 10px;
+}
+
+.form {
+	display: flex;
+	flex-direction: column;
+	width: 200px;
+	justify-content: center;
+}
+.form input {
+	margin: 5px;
+	height: 30px;
+	width: 300px;
+}
+.formBox {
+	display: flex;
+	justify-content: center;
+}
+.errorDisplay {
+	width: fit-content;
+	background-color: red;
+}
